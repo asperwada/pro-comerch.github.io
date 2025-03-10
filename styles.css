@@ -1,0 +1,49 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.background {
+    background-image: url('background1.jpg'); /* Замените на путь к вашему изображению */
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 3em;
+    margin: 0;
+    color: black; /* Черный цвет текста */
+}
+
+.content p {
+    font-size: 1.5em;
+    margin: 20px 0;
+    color: black; /* Черный цвет текста */
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 1.2em;
+    color: white; /* Белый цвет текста на кнопках */
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid white;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
